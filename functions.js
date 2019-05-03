@@ -1,13 +1,10 @@
-// las funciones permiten ejecutar una tarea en particular: Declarativas y Expresivas
 
-// En una función se envian argumentos y se reciben parametros
+/** las funciones permiten ejecutar una tarea en particular: 
+ * Pueden Ser Declarativas y Expresivas
+ En una función se envian argumentos y se reciben parametros
 
-/**
- * Function Declaration: la función tiene nombre
+ * Function Declaration: la función tiene nombre Hoisting , llamar el metodo arriba
  */
-
-// Hoisting , llamar el metodo arriba
-
 
 function calcular(numero) {
     return numero * 2000;
@@ -37,6 +34,16 @@ const jugador = {
 }
 console.log(jugador.saludar(jugador.nombre));
 
+/*
+const estudiante = {
+    name: "genifer",
+    decirCarrera: function(carrera) {
+        return `Hola: ${name} tu carrera es :${carrera}`
+    }
+}
+console.log(estudiante.decirCarrera("x"));
+
+*/
 
 
 /**
@@ -51,6 +58,5 @@ function parametros(param) {
         console.log("Sin parametros ");
     }
 }
-
 // Se llama la función con el argumento null, para que coja el parámetro por defecto
-parametros(4);
+parametros();

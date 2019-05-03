@@ -3,24 +3,25 @@
  */
 
 // a x se le asigna 15 y a Y 10
-/*const punto = [15, 10];
-const [x, y] = punto;
-console.log(`x: ${x} y: ${y}`);
-*/
+const punto = [15, 10];
+const [g, m] = punto;
+console.log(`x: ${g} y: ${m}`);
+
 
 const punto2 = [15, 10, -3, 5, 10];
 const [x, y, ...otros] = punto2;
 console.log(`x: ${x} y: ${y} otros:${otros}`);
 
 
-
 /** 
  * Destructuring Objects: para sacar propiedades de los objetos, los que se necesitan
  */
 
-
-const persona = { name: "Jorge", age: "25", job: "Tester" }
-const { name, job } = persona;
+const persona = {
+     name: "Jorge", 
+     age: "25", 
+     job: "Tester" }
+const { name, job } = persona; 
 console.log(`name:${name} job:${job}`);
 
 
@@ -47,7 +48,7 @@ const estadio = "Santiago Bernabeu";
 //ej propiedad -nombre : nombre
 
 const equipos = {
-    nombre,
+    nombre: nombre,
     tecnico,
     capitan: capitan,
     estadio: estadio

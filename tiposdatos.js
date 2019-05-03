@@ -1,3 +1,6 @@
+
+// con typeof se puede mostrar el tipo de datos que tiene la variable
+
 const nombre = "Jorge";
 console.log(typeof nombre);
 
@@ -12,7 +15,6 @@ console.log(typeof indefinida);
 
 const test = null;
 console.log(typeof test);
-
 
 
 function hola() {

@@ -42,12 +42,12 @@ explicarVar();
     }
     console.log(PI);
 })();
-
+/*
 console.log(x);
 let x = 10;
 
 console.log(y);
 const y = 11;
-
+*/
 console.log(z);
 var z = 12;
